@@ -1,0 +1,27 @@
+﻿  App.cpp
+c:\users\기무지완\source\repos\project20\project20\app.cpp(18): error C2065: 'deck': 선언되지 않은 식별자입니다.
+c:\users\기무지완\source\repos\project20\project20\app.cpp(18): error C2228: '.pop_front' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+  c:\users\기무지완\source\repos\project20\project20\app.cpp(18): note: 'unknown-type' 형식입니다.
+c:\users\기무지완\source\repos\project20\project20\app.cpp(19): error C2065: 'player1': 선언되지 않은 식별자입니다.
+c:\users\기무지완\source\repos\project20\project20\app.cpp(19): error C2228: '.push_back' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+  c:\users\기무지완\source\repos\project20\project20\app.cpp(19): note: 'unknown-type' 형식입니다.
+  Card.cpp
+c:\users\기무지완\source\repos\project20\project20\card.cpp(43): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\기무지완\source\repos\project20\project20\card.cpp(52): error C2676: 이항 '[': 'std::list<Card,std::allocator<_Ty>>'이(가) 이 연산자를 정의하지 않거나 미리 정의된 연산자에 허용되는 형식으로의 변환을 정의하지 않습니다.
+          with
+          [
+              _Ty=Card
+          ]
+c:\users\기무지완\source\repos\project20\project20\card.cpp(54): error C2676: 이항 '[': 'std::list<Card,std::allocator<_Ty>>'이(가) 이 연산자를 정의하지 않거나 미리 정의된 연산자에 허용되는 형식으로의 변환을 정의하지 않습니다.
+          with
+          [
+              _Ty=Card
+          ]
+c:\users\기무지완\source\repos\project20\project20\card.cpp(54): error C2088: '[': class에 맞지 않습니다.
+c:\users\기무지완\source\repos\project20\project20\card.cpp(56): error C2676: 이항 '[': 'std::list<Card,std::allocator<_Ty>>'이(가) 이 연산자를 정의하지 않거나 미리 정의된 연산자에 허용되는 형식으로의 변환을 정의하지 않습니다.
+          with
+          [
+              _Ty=Card
+          ]
+  Player.cpp
+  코드를 생성하고 있습니다...
